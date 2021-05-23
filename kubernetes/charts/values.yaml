@@ -25,8 +25,6 @@ mps:
   jwtExpiration: 1440
 ui:
   replicaCount: 1
-  staticIPAddress: "STATIC_IP_UI"
-  resourceGroupName: "NODE_RESOURCE_GROUP"
 rps:
   replicaCount: 1
   logLevel: "silly"
