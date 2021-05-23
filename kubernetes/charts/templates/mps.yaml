@@ -92,12 +92,12 @@ spec:
                 secretKeyRef:
                   name: open-amt-admin-jwt
                   key: key
-            - name: MPS_USER
+            - name: MPS_USERNAME
               valueFrom:
                 secretKeyRef:
                   name: mps
                   key: user
-            - name: MPS_PASSWORD
+            - name: MPS_PASS
               valueFrom:
                 secretKeyRef:
                   name: mps
